@@ -1,6 +1,9 @@
 
 # 📖 Kartick's Bookmark Manager
 
+Download the latest release from here:  
+   👉 [Download Kartick's Bookmark Manager (Windows EXE)](https://drive.google.com/file/d/1df9ed4Vp-i8l-T_WYza70673Z7DlkOdZ/view?usp=sharing)
+
 A simple desktop tool to **add, edit, and manage PDF bookmarks** with an easy-to-use interface.  
 Built with Python and PySide6, packaged as a standalone EXE for Windows.
 
@@ -49,11 +52,11 @@ Built with Python and PySide6, packaged as a standalone EXE for Windows.
 ## 💻 Installation
 
 1. Download the latest release from here:  
-   👉 [Download Kartick's Bookmark Manager (Windows EXE)]([https://github.com/YOUR_USERNAME/YOUR_REPO/releases/latest](https://drive.google.com/file/d/1df9ed4Vp-i8l-T_WYza70673Z7DlkOdZ/view?usp=sharing))
+   👉 [Download Kartick's Bookmark Manager (Windows EXE)](https://drive.google.com/file/d/1df9ed4Vp-i8l-T_WYza70673Z7DlkOdZ/view?usp=sharing)
 
-2. Run the EXE file.
+3. Run the EXE file.
 
-3. No installation required — just double-click and start using! ✅
+4. No installation required — just double-click and start using! ✅
 
 ---
 
