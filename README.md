@@ -16,7 +16,8 @@ I will keep adding more GUI projects here in the future.
   - Jump to pages easily  
   - Export PDF with bookmarks and open directly  
 - **Tech Stack:** Python 3.12, PySide6, PyMuPDF, PyInstaller
-- Download the latest release from here:  (Version 1.0)
+- [🌐 Visit Website](https://meshbykartick.github.io/GUI-Projects/)
+- Or download the latest release from here:  (Version 1.0)
    👉 [Download Kartick's Bookmark Manager (Windows EXE)](https://drive.google.com/file/d/1df9ed4Vp-i8l-T_WYza70673Z7DlkOdZ/view?usp=sharing)
 
 ---
