@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartick's Bookmark Manager</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            color: #4CAF50;
+            margin-top: 40px;
+        }
+
+        ul {
+            list-style: square;
+            padding-left: 20px;
+        }
+
+        ol {
+            padding-left: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        .screenshot-container {
+            text-align: center;
+            margin: 15px 0;
+        }
+
+        .screenshot {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 5px;
+        }
+
+        .caption {
+            font-size: 0.95em;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 15px 25px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 20px 0;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .download-btn:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #777;
+            font-size: 0.9em;
+            border-top: 1px solid #ddd;
+            margin-top: 40px;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+            header p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kartick's Bookmark Manager</h1>
+        <p>Manage PDF bookmarks easily with chapters and sections</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Download Installer</h2>
+            <a class="download-btn" href="https://drive.google.com/file/d/1df9ed4Vp-i8l-T_WYza70673Z7DlkOdZ/view?usp=drive_link" target="_blank">
+                Download Windows EXE
+            </a>
+        </section>
+
+        <section>
+            <h2>Features</h2>
+            <ul>
+                <li>Open any PDF and view in built-in preview</li>
+                <li>Add, edit, and remove chapters and sections</li>
+                <li>Two-column view: bookmarks and corresponding page numbers</li>
+                <li>Jump to pages easily</li>
+                <li>Export PDF with bookmarks and open directly</li>
+                <li>Larger fonts for readability</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>User Manual</h2>
+            <ol>
+                <li>
+                    <strong>Open a PDF:</strong> Click "Load PDF" and select a file.
+                    <div class="screenshot-container">
+                        <img src="Screenshots/mainWindow.png" alt="Main Window" class="screenshot">
+                        <div class="caption">Step 1: Main window – Click "Load PDF" to open your file.</div>
+                    </div>
+                </li>
+
+                <li>
+                    <strong>Add Chapter/Section:</strong> Click "Add Chapter" or "Add Section", enter title & page number.
+                    <div class="screenshot-container">
+                        <img src="Screenshots/addBookmark.png" alt="Add Bookmark" class="screenshot">
+                        <div class="caption">Step 2: Add chapters or sections with titles and page numbers.</div>
+                    </div>
+                </li>
+
+                <li>
+                    <strong>Edit or Remove Bookmarks:</strong> Select a bookmark, then click "Edit Selected" or "Remove Selected" (If Needed).
+                    
+                </li>
+
+                <li>
+                    <strong>Navigate PDF:</strong> Double click a bookmark to jump, or scroll through the preview. Current page is displayed.
+                    <div class="screenshot-container">
+                        <img src="Screenshots/AfterLoading.png" alt="Navigate PDF" class="screenshot">
+                        <div class="caption">Step 4: Navigate PDF with bookmarks or scroll preview.</div>
+                    </div>
+                </li>
+
+                <li>
+                    <strong>Export PDF:</strong> Click "Export PDF with Bookmarks", choose save location. After saving, click "Open" to launch the file.
+                    <div class="screenshot-container">
+                        <img src="Screenshots/export.png" alt="Export PDF" class="screenshot">
+                        <div class="caption">Step 5: Export PDF with bookmarks and open directly.</div>
+                    </div>
+                </li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Screenshots Overview</h2>
+            <div class="screenshot-container">
+                <img src="Screenshots/openAfterExport.png" alt="Open Exported PDF" class="screenshot">
+                <div class="caption">Step 6: Open the exported PDF after saving.</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 Kartick Samanta | Built with Python & PySide6
+    </footer>
+</body>
+</html>
