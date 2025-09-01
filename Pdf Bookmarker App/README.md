@@ -1,7 +1,7 @@
 
 # 📖 Kartick's Bookmark Manager
 
-Download the latest release from here:  
+Download the latest release from here:  (Version 1.0)
    👉 [Download Kartick's Bookmark Manager (Windows EXE)](https://drive.google.com/file/d/1df9ed4Vp-i8l-T_WYza70673Z7DlkOdZ/view?usp=sharing)
 
 A simple desktop tool to **add, edit, and manage PDF bookmarks** with an easy-to-use interface.  
